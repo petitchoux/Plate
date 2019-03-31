@@ -1,0 +1,36 @@
+.fotorama__wrap {
+    margin: 0 auto;
+}
+
+body {
+    margin: 90px;
+}
+
+#swipeLeft {
+    float: left;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+#swipeRight {
+    float: right;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 10px 365px 0 365px;
+}
+
+p {
+    margin: 0px 365px 0 365px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.indent {
+    text-indent: 50px;
+}
