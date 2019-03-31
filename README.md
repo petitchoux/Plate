@@ -1,5 +1,7 @@
 # Plate
 
+![Wireframe](https://i.imgur.com/WJMJJ4A.png)
+
 **Medium:** Photography  
 **Dimensions:** 500px x 500px (images)  
 **Year of Creation:** 2019  
