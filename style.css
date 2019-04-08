@@ -26,6 +26,12 @@ h1 {
     padding-top: 10px;
 }
 
+h3 {
+    width: 500px;
+    text-align: left;
+    margin: auto;
+}
+
 p {
     width: 500px;
     margin: auto;
