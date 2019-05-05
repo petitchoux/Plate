@@ -19,15 +19,16 @@
     <!-- 16 KB -->
 
     <link rel="stylesheet" href="style.css">
+    <script src="sessionStorage.js"></script>
 
 </head>
 
 <body>
     <a href="veggies.html"><img src="https://i0.wp.com/fastandclean.org/wp-content/uploads/2017/03/X-Tinder-icon-meaning.png?w=50&ssl=1" id="swipeLeft"></a>
-    <a href="veggies.html"><img src="https://i0.wp.com/fastandclean.org/wp-content/uploads/2017/03/Like-Heart-Tinder-icon-meaning.png?zoom=2&resize=54%2C50&ssl=1" id="swipeRight"></a>
+    <a href="veggies.html" onclick="SaveData()"><img src="https://i0.wp.com/fastandclean.org/wp-content/uploads/2017/03/Like-Heart-Tinder-icon-meaning.png?zoom=2&resize=54%2C50&ssl=1" id="swipeRight"></a>
 
     <div class="fotorama" data-width="85%" data-nav="thumbs">
-        <img src="https://i.imgur.com/mSV2mt6.jpg">
+        <img id="image" src="https://i.imgur.com/mSV2mt6.jpg">
         <img src="https://i.imgur.com/8y7HwCN.jpg">
         <img src="https://i.imgur.com/IDsXKUu.jpg">
         <img src="https://i.imgur.com/C6B81mr.jpg">

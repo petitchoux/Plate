@@ -50,3 +50,15 @@ p {
 .logo {
     height: 18px;
 }
+
+li {
+    list-style-type: none;
+}
+
+.matchlist {
+    text-align: center;
+}
+
+#recipecredit {
+    text-align: center;
+}
