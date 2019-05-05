@@ -19,23 +19,24 @@
     <!-- 16 KB -->
 
     <link rel="stylesheet" href="style.css">
+    <script src="sessionStorage.js"></script>
 
 </head>
 
 <body>
-    <img src="https://i0.wp.com/fastandclean.org/wp-content/uploads/2017/03/X-Tinder-icon-meaning.png?w=50&ssl=1" id="swipeLeft">
-    <a href="roastedcauliflower.html"><img src="https://i0.wp.com/fastandclean.org/wp-content/uploads/2017/03/Like-Heart-Tinder-icon-meaning.png?zoom=2&resize=54%2C50&ssl=1" id="swipeRight"></a>
+    <a href="roastedcauliflower.html"><img src="https://i0.wp.com/fastandclean.org/wp-content/uploads/2017/03/X-Tinder-icon-meaning.png?w=50&ssl=1" id="swipeLeft"></a>
+    <a href="roastedcauliflower.html"><img onclick="SaveDataToStorage()" src="https://i0.wp.com/fastandclean.org/wp-content/uploads/2017/03/Like-Heart-Tinder-icon-meaning.png?zoom=2&resize=54%2C50&ssl=1" id="swipeRight"></a>
 
     <div class="fotorama" data-width="85%" data-nav="thumbs">
-        <img src="images/shabu/shabu-cover.jpg">
-        <img src="images/shabu/shabu1.JPG">
-        <img src="images/shabu/shabu2.jpg">
-        <img src="images/shabu/shabu3.jpg">
-        <img src="images/shabu/shabu4.jpg">
+        <img id="match" src="https://i.imgur.com/HKXYIgV.jpg">
+        <img src="https://i.imgur.com/LTQQIrm.jpg">
+        <img src="https://i.imgur.com/xCwnonC.jpg">
+        <img src="https://i.imgur.com/OOlMNFJ.jpg">
+        <img src="https://i.imgur.com/0Cted9A.jpg">
     </div>
 
     <h1>Shabu Shabu</h1>
-    <p>I may not have gold and riches, but I'm a pot of goodness that will always keep you warm and full.
+    <p>I'm a pot of happiness that will always keep you warm and full.
     </p>
 
     <nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-light">
@@ -45,6 +46,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+                <a class="nav-item nav-link" href="matches.html">Matches</a>
                 <a class="nav-item nav-link" href="about.html">About</a>
                 <a class="nav-item nav-link" href="faq.html">FAQ</a>
                 <a class="nav-item nav-link" href="credits.html">Credit</a>
